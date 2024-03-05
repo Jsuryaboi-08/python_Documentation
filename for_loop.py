@@ -16,3 +16,8 @@ for seconds in range(10, 0, -1):
     time.sleep(1)
 print("Blastoff!")
 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+print(x)
