@@ -21,3 +21,16 @@ for x in fruits:
   if x == "banana":
     continue
 print(x)
+
+#nested for loops
+
+rows = int(input("enter the number of rows: "))
+columns = int(input("enter the number of columns: "))
+symbol = input("enter a symbol to use: ")
+
+for i in range(rows):
+    for j in range(columns):
+        print(symbol, end="")# to prevent moving down to the next line
+    print()
+
+    
