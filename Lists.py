@@ -28,3 +28,14 @@ food.clear()#clear the list
 
 
 
+#2d list
+snacks=["samosa", "puffs", "bonda"]
+dinners=["chapathi", "biryani", "pulav"]
+food=[snacks, dinners]
+print(food)
+print(food[0][1])#puffs
+print(food[1][2])#pulav
+
+#works like a matrix
+
+
