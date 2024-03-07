@@ -16,4 +16,14 @@ def add(a,b):
 
 print(add(2,3))
 
+#nested function calls
+
+num = input("enter a number: ")
+num = float(num)
+num = abs(num)
+num = round(num)
+print(num)
+
+print(round(abs(float(input("enter a number: ")))))
+
 
