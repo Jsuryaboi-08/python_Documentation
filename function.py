@@ -26,4 +26,27 @@ print(num)
 
 print(round(abs(float(input("enter a number: ")))))
 
+#args
+#parameter that will pack all arguments into a tuple
 
+def add(*args):
+    sum = 0
+    args = list(args)
+    args[0] = 0
+    for i in args:
+        sum += i
+    return sum
+
+print(add(1,2,3,4,5)) 
+
+#changing the tuple to list and changing the first element to 0
+
+def Add(*stuff):
+    sum = 0
+    stuff = list(stuff)
+    stuff[0] = 0
+    for i in stuff:
+        sum += i
+    return sum
+
+print(Add(1,2,3,4,5))
