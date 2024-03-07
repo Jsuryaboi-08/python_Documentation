@@ -50,3 +50,20 @@ def Add(*stuff):
     return sum
 
 print(Add(1,2,3,4,5))
+
+#kwargs
+#parameter that will pack all arguments into a dictionary
+
+def hello(**kwargs):
+    print("Hello " + kwargs["first_name"] + " " + kwargs["last_name"])#Hello jeya surya
+
+hello(first_name = "jeya", last_name = "surya", middle_name = "shankar")
+
+
+
+def hi(**kwargs):
+    for key, value in kwargs.items():
+        print(value, end= " ")
+    print()
+
+hi(a = "surya", b = "jeya", c = "shankar")
