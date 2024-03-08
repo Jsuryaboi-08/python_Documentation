@@ -6,3 +6,5 @@ you wont regret it.
 
 --______<
 
+This is a test file.
+hello from python.
